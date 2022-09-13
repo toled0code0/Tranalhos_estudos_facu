@@ -1,0 +1,6 @@
+distancia =int(input('Digite a distancia: '))
+diametro_um =int(input('Digite o diametro 1: '))
+diametro_dois =int(input('Digite o diametro 2:' ))
+somaDiametro = diametro_um + diametro_dois
+resultado = distancia/somaDiametro
+print ('o valor do icm é %.2f'%(resultado))
