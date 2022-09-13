@@ -1,0 +1,5 @@
+valor_f = int(input("Digite o valor de a: "))
+def conversao(valor_f):
+    c=(5/9)*(valor_f-32)
+    return c
+print(conversao(valor_f))
