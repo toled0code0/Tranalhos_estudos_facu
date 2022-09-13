@@ -1,0 +1,7 @@
+entradas = input().split() 
+total  = int(valores[0])
+participantes = int(valores[1])
+
+result = total / participantes
+
+print(f"{result:2.2f}")
