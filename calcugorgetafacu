@@ -1,0 +1,6 @@
+valor_da_conta = float(input("Digite o valor total da conta: "))
+porcentagem = 10
+def gorgeta(valor_da_conta,porcentagem):
+    resultadogorgeta = (valor_da_conta*porcentagem)/100
+    return resultadogorgeta
+print(gorgeta(valor_da_conta,porcentagem))
